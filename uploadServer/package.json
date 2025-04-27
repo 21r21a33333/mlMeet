@@ -1,0 +1,30 @@
+{
+  "name": "uploadserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.10.0",
+    "@livekit/agents": "^0.7.3",
+    "@livekit/rtc-node": "^0.13.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "livekit-client": "^2.11.3",
+    "livekit-server-sdk": "^2.12.0",
+    "multer": "^1.4.5-lts.2",
+    "multiparty": "^4.2.3",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10",
+    "pocketbase": "^0.26.0",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.1"
+  }
+}
